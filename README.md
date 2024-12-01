@@ -7,15 +7,21 @@
 ## 🌟 Features
 
 - **Health Regeneration by Style**: Gain small amounts of health every time you earn style points during combat.
+- **Customizable Healing** *(New in v1.1.0)*: Adjust the amount of health regenerated via an intuitive GUI, from 1 to 100 HP per style increment.
+- **Toggle Mod On/Off** *(New in v1.1.0)*: Easily enable or disable the mod without uninstalling it.
 - **Balanced Healing**: Regeneration is capped at a maximum of 100 HP, even when bonus health temporarily raises your total above 100.
 - **Seamless Integration**: Works naturally with ULTRAKILL’s style system to create an intuitive and rewarding experience.
 
 ---
 
-## 🚧 Limitations
+## 🛠️ Customization *(New in v1.1.0)*
 
-- **Healing Cap**: Regeneration is limited to 100 HP to maintain balance and preserve the game’s challenge.
-- **No Bonus Health Recovery**: Style-based healing doesn’t restore bonus health beyond 100 HP, focusing the mechanic on core survivability.
+The new version introduces a graphical configuration menu, powered by **Configgy**, making it easy to tweak the mod's behavior:
+1. **Adjust Regeneration Value**: Use a numeric input to set the exact amount of health gained per style increment (1–100).
+2. **Enable/Disable Mod**: Toggle the mod on or off directly from the settings menu.
+3. **Validation and Balance**: All inputs are validated to ensure values stay within the allowable range, preserving game balance.
+
+To access the settings, go to **Settings > UniversalBlood** in the game menu.
 
 ---
 
@@ -28,7 +34,7 @@
 1. Download the latest release of **Universal Blood** from the [Releases](https://github.com/MrRaposinha/UniversalBlood/releases) page.
 2. Place the `UniversalBlood.dll` file in your `BepInEx/plugins` folder.
    - If the `plugins` folder doesn’t exist, create it manually.
-3. Launch ULTRAKILL and enjoy the enhanced gameplay!
+3. Launch ULTRAKILL and enjoy the enhanced and customizable gameplay!
 
 ---
 
@@ -37,7 +43,7 @@
 This mod is ideal for:
 - **High-Skill Players**: Those who thrive on mastering ULTRAKILL’s style system and want additional rewards for their performance.
 - **Creative Combatants**: Players who enjoy experimenting with varied strategies in the heat of battle.
-- **Challenge Enthusiasts**: Gamers seeking a balance of added complexity and rewards without trivializing the core difficulty.
+- **Customization Enthusiasts** *(New in v1.1.0)*: Gamers who want precise control over mod mechanics to suit their playstyle.
 
 ---
 
@@ -67,4 +73,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-Thank you for trying out **Universal Blood**! May your stylish combat lead to victory and survival! 🎮🔥
+Thank you for trying out **Universal Blood**! With v1.1.0, customization and balance are at your fingertips. May your stylish combat lead to victory and survival! 🎮🔥
